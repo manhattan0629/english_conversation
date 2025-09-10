@@ -21,3 +21,7 @@ import constants as ct
 
 # 各種設定
 load_dotenv()
+
+# Streamlit UI（最低限の表示）
+st.title("英会話AIアプリ")
+st.write("ようこそ！この画面が見えればCloud側の描画はOKです。以降のロジックもこの下に記述してください。")
